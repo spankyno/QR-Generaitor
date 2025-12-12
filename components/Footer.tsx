@@ -9,10 +9,7 @@ export const Footer: React.FC = () => {
         </p>
         <div className="flex items-center gap-6">
           <a href="#" className="text-slate-500 hover:text-indigo-400 text-sm transition-colors">Privacidad</a>
-          <a href="#" className="text-slate-500 hover:text-indigo-400 text-sm transition-colors">Términos</a>
-          <a href="https://github.com/aitorsanchez" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-indigo-400 text-sm transition-colors">
-            GitHub
-          </a>
+          <a href="#" className="text-slate-500 hover:text-indigo-400 text-sm transition-colors">Términos</a>          
         </div>
       </div>
     </footer>

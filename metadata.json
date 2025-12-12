@@ -1,0 +1,8 @@
+{
+  "name": "Kasbo's QR Generaitor",
+  "description": "Herramienta profesional gratuita para generar códigos QR personalizados en tiempo real. Exporta en PNG con alta calidad.",
+  "requestFramePermissions": [
+    "clipboard-read",
+    "clipboard-write"
+  ]
+}

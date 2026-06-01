@@ -8,8 +8,22 @@ export const Footer: React.FC = () => {
           Aitor Sánchez Gutiérrez &copy; 2026 - Reservados todos los derechos
         </p>
         <div className="flex items-center gap-6">
-          <a href="#" className="text-slate-500 hover:text-indigo-400 text-sm transition-colors">Privacidad</a>
-          <a href="#" className="text-slate-500 hover:text-indigo-400 text-sm transition-colors">Términos</a>          
+          <a 
+            href="https://aitorsanchez.pages.dev/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-slate-500 hover:text-indigo-400 text-sm transition-colors"
+          >
+            Blog
+          </a>
+          <a 
+            href="https://aitorhub.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-slate-500 hover:text-indigo-400 text-sm transition-colors"
+          >
+            Más apps
+          </a>
         </div>
       </div>
     </footer>
